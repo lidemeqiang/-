@@ -11,15 +11,15 @@
 @interface DetailsModel : NSObject
 
 
-@property(nonatomic,strong)NSData *imageView;
+@property(nonatomic,strong)NSData *publicationImage;///用户传递的图片
 
+@property(nonatomic,copy)NSString *name;///用户名字
 
+@property(nonatomic,copy)NSString *title;///用户传递的标题
 
+@property(nonatomic,strong)NSData *introduce;///用户简介描述
 
-
-
-
-
+@property(nonatomic,copy)NSString *userName; ///用户的名字
 
 
 @end
