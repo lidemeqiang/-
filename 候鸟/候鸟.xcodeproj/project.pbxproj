@@ -14,7 +14,6 @@
 		D608EC851D0D7979003DC7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608EC841D0D7979003DC7AA /* Assets.xcassets */; };
 		D608EC881D0D7979003DC7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608EC861D0D7979003DC7AA /* LaunchScreen.storyboard */; };
 		D64F9E4D1D0E4AD6000DF557 /* DetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F9E4C1D0E4AD6000DF557 /* DetailsModel.m */; };
-		D64F9EBC1D0E8EBD000DF557 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F9EBB1D0E8EBD000DF557 /* TouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		D608EC891D0D7979003DC7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64F9E4B1D0E4AD6000DF557 /* DetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsModel.h; path = "候鸟/DetailsModel.h"; sourceTree = SOURCE_ROOT; };
 		D64F9E4C1D0E4AD6000DF557 /* DetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsModel.m; path = "候鸟/DetailsModel.m"; sourceTree = SOURCE_ROOT; };
-		D64F9EBA1D0E8EBD000DF557 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchViewController.h; path = "候鸟/TouchViewController.h"; sourceTree = SOURCE_ROOT; };
-		D64F9EBB1D0E8EBD000DF557 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchViewController.m; path = "候鸟/TouchViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +107,6 @@
 		D608EC911D0D7A49003DC7AA /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				D64F9EBA1D0E8EBD000DF557 /* TouchViewController.h */,
-				D64F9EBB1D0E8EBD000DF557 /* TouchViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -250,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64F9E4D1D0E4AD6000DF557 /* DetailsModel.m in Sources */,
-				D64F9EBC1D0E8EBD000DF557 /* TouchViewController.m in Sources */,
 				D608EC801D0D7979003DC7AA /* ViewController.m in Sources */,
 				D608EC7D1D0D7979003DC7AA /* AppDelegate.m in Sources */,
 				D608EC7A1D0D7979003DC7AA /* main.m in Sources */,
