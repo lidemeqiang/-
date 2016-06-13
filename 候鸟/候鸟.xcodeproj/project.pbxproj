@@ -13,6 +13,7 @@
 		D608EC831D0D7979003DC7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608EC811D0D7979003DC7AA /* Main.storyboard */; };
 		D608EC851D0D7979003DC7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608EC841D0D7979003DC7AA /* Assets.xcassets */; };
 		D608EC881D0D7979003DC7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608EC861D0D7979003DC7AA /* LaunchScreen.storyboard */; };
+		D64F9E4D1D0E4AD6000DF557 /* DetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F9E4C1D0E4AD6000DF557 /* DetailsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D608EC841D0D7979003DC7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D608EC871D0D7979003DC7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D608EC891D0D7979003DC7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F9E4B1D0E4AD6000DF557 /* DetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsModel.h; path = "候鸟/DetailsModel.h"; sourceTree = SOURCE_ROOT; };
+		D64F9E4C1D0E4AD6000DF557 /* DetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsModel.m; path = "候鸟/DetailsModel.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 		D608EC921D0D7A49003DC7AA /* model */ = {
 			isa = PBXGroup;
 			children = (
+				D64F9E4B1D0E4AD6000DF557 /* DetailsModel.h */,
+				D64F9E4C1D0E4AD6000DF557 /* DetailsModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64F9E4D1D0E4AD6000DF557 /* DetailsModel.m in Sources */,
 				D608EC801D0D7979003DC7AA /* ViewController.m in Sources */,
 				D608EC7D1D0D7979003DC7AA /* AppDelegate.m in Sources */,
 				D608EC7A1D0D7979003DC7AA /* main.m in Sources */,
